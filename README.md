@@ -2,6 +2,7 @@ Todo-App Deployment on Kubernetes
 
 
 This guide provides instructions for deploying a sample todo-app on Kubernetes, scaling the application, and configuring Persistent Volumes and Persistent Volume Claims.
+
 Prerequisites
 * Kubernetes cluster (e.g., Minikube, Docker Desktop Kubernetes, or a cloud-based Kubernetes cluster)
 * kubectl command-line tool
@@ -11,8 +12,9 @@ Steps to Deploy Todo-App
 * apply the deployment to your k8s (minikube) cluster by command kubectl apply -f deployment.yml
 
 Scaling the application
+
 *To scale the todo-app deployment:
-kubectl scale deployment/todo-app-deployment --replicas=3
+   kubectl scale deployment/todo-app-deployment --replicas=3
 *Replace 3 with the desired number of replicas.
 
 
