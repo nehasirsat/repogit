@@ -14,7 +14,9 @@ Steps to Deploy Todo-App
 Scaling the application
 
 *To scale the todo-app deployment:
+   
    kubectl scale deployment/todo-app-deployment --replicas=3
+
 *Replace 3 with the desired number of replicas.
 
 
